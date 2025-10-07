@@ -1,0 +1,19 @@
+{
+  "name": "rokitaaa-store-bot",
+  "version": "1.1.0",
+  "description": "Bot de soporte para la tienda rokitaaa (Tebex). Tickets + utilidades. CommonJS.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy:cmd": "node scripts/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0"
+  }
+}
